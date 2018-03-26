@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--http://blog.csdn.net/xh870189248/article/details/75808341-->
+<?xml version="1.0" encoding="utf-8"?><!--http://blog.csdn.net/xh870189248/article/details/75808341-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,14 +9,20 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
-        android:background="@drawable/background_with_shadow">
+        android:elevation="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <!--阴影效果-->
+        <!--Android 5.0 及以上-->
+        <!--android:elevation="10dp"-->
+        <!--通用-->
+        <!--android:background="@drawable/background_with_shadow"-->
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/dd"
@@ -38,8 +43,8 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/dd2"
@@ -59,9 +64,9 @@
 
         <RelativeLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="85dp"
             android:layout_gravity="bottom"
+            android:layout_weight="1"
             android:gravity="center">
 
             <ImageView
@@ -85,8 +90,8 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/dd3"
@@ -107,8 +112,8 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/dd4"
